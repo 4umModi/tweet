@@ -1,0 +1,435 @@
+Script started on Tue Oct 23 14:29:32 2018
+[?1034hbash-3.2$ ls
+exercise4.txt
+bash-3.2$ ls -a
+.		..		exercise4.txt
+bash-3.2$ ..[K[Kpwd
+/Users/modif1/Desktop/CSC09901
+bash-3.2$ cd ..
+bash-3.2$ pwd
+/Users/modif1/Desktop
+bash-3.2$ pwd[Kcd e[Kc[KCSC09901/exercise4.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash-3.2$ pwd
+/Users/modif1/Desktop/CSC09901
+bash-3.2$ ls -1[Kl
+total 8
+-rw-r--r--  1 modif1  LIONS\Domain Users  410 Oct 23 14:32 exercise4.txt
+bash-3.2$ touch test1.tct[K[Kxt[K[K[Kc[Ktxt
+bash-3.2$ ls
+exercise4.txt	test1.txt
+bash-3.2$ cqt[K[Kat test1.txt
+bash-3.2$ ls -al
+total 8
+drwxr-xr-x  4 modif1  LIONS\Domain Users  136 Oct 23 14:33 .
+drwxr-xr-x+ 5 modif1  LIONS\Domain Users  170 Oct 23 14:28 ..
+-rw-r--r--  1 modif1  LIONS\Domain Users  646 Oct 23 14:34 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users    0 Oct 23 14:33 test1.txt
+bash-3.2$ chmod g+rw exercise5.txt[1P.txt4.txt
+bash-3.2$ ls -al[K[Kl
+total 8
+-rw-rw-r--  1 modif1  LIONS\Domain Users  965 Oct 23 14:40 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users    0 Oct 23 14:33 test1.txt
+bash-3.2$ ls -lchmod g+rw exercise4.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ko[K[K[Ko+w exercise4.txt
+bash-3.2$ chmod o+w exercise4.txt[C[C[C[C[C[C[C[C[C[Cls -l[K
+total 8
+-rw-rw-rw-  1 modif1  LIONS\Domain Users  1312 Oct 23 14:41 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:33 test1.txt
+bash-3.2$ ls -lchmod o+w exercise4.txtls -l[Kchmod g+rw exercise4.txt[C[1@-[C[1P
+bash-3.2$ chmod g-rw exercise4.txt[C[C[C[C[C[C[C[C[C[Cls -l[K
+total 8
+-rw----rw-  1 modif1  LIONS\Domain Users  1672 Oct 23 14:41 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:33 test1.txt
+bash-3.2$ ls -lchmod g-rw exercise4.txt[C[C[C[C[C[C[C[C[C[Cls -l[Kchmod g-rw exercise4.txt[1@o[C[1P
+bash-3.2$ chmod o-rw exercise4.txt[C[C[C[C[C[C[C[C[C[Cls -l[K
+total 8
+-rw-------  1 modif1  LIONS\Domain Users  2067 Oct 23 14:41 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:33 test1.txt
+bash-3.2$ cp test1.txt text2.text
+bash-3.2$ cp test1.txt text2.text[C[C[C[C[C[C[C[C[C[Cls -l[K
+total 8
+-rw-------  1 modif1  LIONS\Domain Users  2301 Oct 23 14:42 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:33 test1.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:43 text2.text
+bash-3.2$ mv test1.txt [K[K[K[K[K[K1.txt 
+exercise4.txt  test1.txt      text2.text     
+bash-3.2$ mv test1.txt [K[K[K[K[K[K[K[K[K[K[K[K[Kmv test1.txt test4.txt
+bash-3.2$ mv test1.txt test4.txt[C[C[C[C[C[C[C[C[C[Cls -l[K
+total 8
+-rw-------  1 modif1  LIONS\Domain Users  2808 Oct 23 14:43 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:33 test4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:43 text2.text
+bash-3.2$ mv test4.txt  ../test5.txt
+bash-3.2$ mv test4.txt  ../test5.txt[C[C[C[C[C[C[C[C[C[Cls -l[K
+total 8
+-rw-------  1 modif1  LIONS\Domain Users  3158 Oct 23 14:45 exercise4.txt
+-rw-r--r--  1 modif1  LIONS\Domain Users     0 Oct 23 14:43 text2.text
+bash-3.2$ ..[K[Krm ../ text5.txt[1Ptext5.txt
+rm: ../text5.txt: No such file or directory
+bash-3.2$ rm ../text5.txt[K[K[K[K[K[K[K[K[K[K[K[K/USERS[K[K[K[Ksers/modif1/[K[K[K[K[K[K[Kmodif1/Desktop/csc[K[K[Ktest5.txt 
+bash-3.2$ ls *.text[K[K[Kxt[K[K*
+exercise4.txt	text2.text
+bash-3.2$ mkdir tstdir1
+bash-3.2$ mkdirtst[K[K[K tstdir2[K[K[K[K[K[K[K[K[K[K[K[K[Kcd tstdir1
+bash-3.2$ mkdir testdir2
+bash-3.2$ pwd
+/Users/modif1/Desktop/CSC09901/tstdir1
+bash-3.2$ cd tstdirc[K2
+bash: cd: tstdir2: No such file or directory
+bash-3.2$ cd tstdir2estdir2
+bash-3.2$ touch test1.tct[K[Kxt
+bash-3.2$ d[Kcd [K[K[Kles
+bash: les: command not found
+bash-3.2$ ls
+test1.txt
+bash-3.2$ ls[K[Kcd ..
+bash-3.2$ m[Ktouch test2.txt
+bash-3.2$ ls
+test2.txt	testdir2
+bash-3.2$ pwd
+/Users/modif1/Desktop/CSC09901/tstdir1
+bash-3.2$ rm tstdire1[K[K1/
+rm: tstdir1/: No such file or directory
+bash-3.2$ rmdir tsdir11/
+rmdir: tsdir11/: No such file or directory
+bash-3.2$ rmdir tsdir11/[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+test2.txt	testdir2
+bash-3.2$ lsrmdir tsdir11/[C[C[C[C[C[C[C[C[C[Cls[K[Klsrmdir tsdir11/[K[K[K[K[K[K[K[K[K[K[K[K test2.txt
+bash-3.2$ rm test2.txt[C[C[C[C[C[C[C[C[C[Cls[Krmdir tsdir11/[C[C[C[C[C[C[C[C[C[Cls[K
+testdir2
+bash-3.2$ lsrm test2.txt[C[C[C[C[C[C[C[C[C[Cls[K[Ktouch test2.txt
+bash-3.2$ touch test2.txt[C[C[C[C[C[C[C[C[C[Cls[K[K[Krm tstdjr2/tes[K[Ks[K[K[K[K[K[Kir2/tw=[K[Kest1.txt
+rm: tstdir2/test1.txt: No such file or directory
+bash-3.2$ rm tstdir2/test1.txtestdir2/test1.txt
+bash-3.2$ rm testdir2/test1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstdir2/test1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[Cestdir2/test1.txt[C[C[C[C[C[C[C[C[C[C[Kls et[K[Ktestdir2[K[K[K[K[K[K[K[K[K[K[Krmdir tstdr2/
+rmdir: tstdr2/: No such file or directory
+bash-3.2$ rmdir tstdr2/estdr2/
+rmdir: testdr2/: No such file or directory
+bash-3.2$ rmdir testdr2/[C[C[C[C[C[C[C[C[C[C[K..[K[Kcd ..
+bash-3.2$ cd ..rmdir testdr2/
+rmdir: testdr2/: No such file or directory
+bash-3.2$ ls
+exercise4.txt	text2.text	tstdir1
+bash-3.2$ lsrmdir testdr2/[C[C[C[C[C[C[C[C[C[Cls[K[K[Kcd test[K[K[Kstdir1
+bash-3.2$ cd tstdir1ls[Krmdir testdr2/[K
+rmdir: testdr2: No such file or directory
+bash-3.2$ ls
+test2.txt	testdir2
+bash-3.2$ lsrmdir testdr2ir2
+bash-3.2$ ls
+test2.txt
+bash-3.2$ lsrmdir testdir2[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+bash-3.2$ ls
+exercise4.txt	text2.text	tstdir1
+bash-3.2$ rm -Rf tsdir.[K1/
+bash-3.2$ ls
+exercise4.txt	text2.text	tstdir1
+bash-3.2$ lsrm -Rf tsdir1/
+bash-3.2$ rm -Rf tsdir1/[C[C[C[C[C[C[C[C[C[Cls[K
+exercise4.txt	text2.text	tstdir1
+bash-3.2$ cd tsdir1
+bash: cd: tsdir1: No such file or directory
+bash-3.2$ cd tsdir1ls[Kcd tsdir1[K[K[K[K[K[K[K[K[Kls
+exercise4.txt	text2.text	tstdir1
+bash-3.2$ lscd tsdir1ls[Krm -Rf tsdir1/tdir1/
+bash-3.2$ rm -Rf tstdir1/[C[C[C[C[C[C[C[C[C[Cls[K
+exercise4.txt	text2.text
+bash-3.2$ man
+What manual page do you want?
+bash-3.2$ man -r[K[Krm
+[?1049h[?1h=
+RM(1)                     BSD General Commands Manual                    RM(1)
+
+[1mNAME[0m
+     [1mrm[0m, [1munlink[0m -- remove directory entries
+
+[1mSYNOPSIS[0m
+     [1mrm[0m [[1m-dfiPRrvW[0m] [4mfile[24m [4m...[24m
+     [1munlink[0m [4mfile[24m
+
+[1mDESCRIPTION[0m
+     The [1mrm[0m utility attempts to remove the non-directory type files specified
+     on the command line.  If the permissions of the file do not permit writ-
+     ing, and the standard input device is a terminal, the user is prompted
+     (on the standard error output) for confirmation.
+
+     The options are as follows:
+
+     [1m-d[0m          Attempt to remove directories as well as other types of
+                 files.
+
+     [1m-f[0m          Attempt to remove the files without prompting for confirma-
+                 tion, regardless of the file's permissions.  If the file does
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K                 not exist, do not display a diagnostic message or modify the
+:[K[K [KESCESC[KOO[KBB[K                 exit status to reflect an error.  The [1m-f[0m option overrides any
+:[K[K [KESCESC[KOO[KAA[K[HMRM(1)                     BSD General Commands Manual                    RM(1)
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K                 not exist, do not display a diagnostic message or modify the
+:[K[K [KESCESC[KOO[KBB[K                 exit status to reflect an error.  The [1m-f[0m option overrides any
+:[K[K [KESCESC[KOO[KBB[K                 previous [1m-i[0m options.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-i[0m          Request confirmation before attempting to remove each file,
+:[K[K [KESCESC[KOO[KBB[K                 regardless of the file's permissions, or whether or not the
+:[K[K [KESCESC[KOO[KBB[K                 standard input device is a terminal.  The [1m-i[0m option overrides
+:[K[K [KESCESC[KOO[KBB[K                 any previous [1m-f[0m options.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-P[0m          Overwrite regular files before deleting them.  Files are
+:[K[K [KESCESC[KOO[KBB[K                 overwritten three times, first with the byte pattern 0xff,
+:[K[K [KESCESC[KOO[KBB[K                 then 0x00, and then 0xff again, before they are deleted.
+:[K[K [KESCESC[KOO[KAA[K[HM     The [1mrm[0m utility attempts to remove the non-directory type files specified
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1munlink[0m [4mfile[24m
+[24;1H[K:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-P[0m          Overwrite regular files before deleting them.  Files are
+:[K[K [KESCESC[KOO[KBB[K                 overwritten three times, first with the byte pattern 0xff,
+:[K[K [KESCESC[KOO[KBB[K                 then 0x00, and then 0xff again, before they are deleted.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-R[0m          Attempt to remove the file hierarchy rooted in each file
+:[K[K [KESCESC[KOO[KBB[K                 argument.  The [1m-R[0m option implies the [1m-d[0m option.  If the [1m-i[0m
+:[K[K [KESCESC[KOO[KBB[K                 option is specified, the user is prompted for confirmation
+:[K[K [KESCESC[KOO[KBB[K                 before each directory's contents are processed (as well as
+:[K[K [KESCESC[KOO[KBB[K                 before the attempt is made to remove the directory).  If the
+:[K[K [KESCESC[KOO[KBB[K                 user does not respond affirmatively, the file hierarchy
+:[K[K [KESCESC[KOO[KBB[K                 rooted in that directory is skipped.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-r[0m          Equivalent to [1m-R[0m.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-v[0m          Be verbose when deleting files, showing them as they are
+:[K[K [KESCESC[KOO[KBB[K                 removed.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-W[0m          Attempt to undelete the named files.  Currently, this option
+:[K[K [KESCESC[KOO[KBB[K                 can only be used to recover files covered by whiteouts.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m utility removes symbolic links, not the files referenced by the
+:[K[K [KESCESC[KOO[KBB[K     links.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     It is an error to attempt to remove the files ``.'' or ``..''.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     When the utility is called as [1munlink[0m, only one argument, which must not
+:[K[K [KESCESC[KOO[KBB[K     be a directory, may be supplied.  No options may be supplied in this sim-
+:[K[K [KESCESC[KOO[KBB[K     ple mode of operation, which performs an unlink(2) operation on the
+:[K[K [KESCESC[KOO[KBB[K     passed argument.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m utility exits 0 if all of the named files or file hierarchies were
+:[K[K [KESCESC[KOO[KBB[K     removed, or if the [1m-f[0m option was specified and all of the existing files
+:[K[K [KESCESC[KOO[KBB[K     or file hierarchies were removed.  If an error occurs, [1mrm[0m exits with a
+:[K[K [KESCESC[KOO[KBB[K     value >0.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mNOTE[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m command uses getopt(3) to parse its arguments, which allows it to
+:[K[K [KESCESC[KOO[KBB[K     accept the `--' option which will cause it to stop processing flag
+:[K[K [KESCESC[KOO[KBB[K     options at that point.  This will allow the removal of file names that
+:[K[K [KESCESC[KOO[KBB[K     begin with a dash (`-').  For example:
+:[K[K [KESCESC[KOO[KBB[K           rm -- -filename
+:[K[K [KESCESC[KOO[KBB[K     The same behavior can be obtained by using an absolute or relative path
+:[K[K [KESCESC[KOO[KBB[K     reference.  For example:
+:[K[K [KESCESC[KOO[KBB[K           rm /home/user/-filename
+:[K[K [KESCESC[KOO[KBB[K           rm ./-filename
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m
+:[K[K [KESCESC[KOO[KBB[K     rmdir(1), undelete(2), unlink(2), fts(3), getopt(3), symlink(7)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1m-P[0m option assumes that the underlying file system is a fixed-block
+:[K[K [KESCESC[KOO[KBB[K     file system.  In addition, only regular files are overwritten, other
+:[K[K [KESCESC[KOO[KBB[K     types of files are not.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mCOMPATIBILITY[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m utility differs from historical implementations in that the [1m-f[0m
+:[K[K [KESCESC[KOO[KBB[K     option only masks attempts to remove non-existent files instead of mask-
+:[K[K [KESCESC[KOO[KBB[K     ing a large variety of errors.  The [1m-v[0m option is non-standard and its use
+:[K[K [KESCESC[KOO[KBB[K     in scripts is not recommended.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     Also, historical BSD implementations prompted on the standard output, not
+:[K[K [KESCESC[KOO[KBB[K     the standard error output.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSTANDARDS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m command is almost IEEE Std 1003.2 (``POSIX.2'') compatible, except
+:[K[K [KESCESC[KOO[KBB[K     that POSIX requires [1mrm[0m to act like rmdir(1) when the [4mfile[24m specified is a
+:[K[K [KESCESC[KOO[KBB[K     directory.  This implementation requires the [1m-d[0m option if such behavior
+:[K[K [KESCESC[KOO[KBB[K     is desired.  This follows the historical behavior of [1mrm[0m with respect to
+:[K[K [KESCESC[KOO[KBB[K     directories.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The simplified [1munlink[0m command conforms to Version 2 of the Single UNIX
+:[K[K [KESCESC[KOO[KBB[K     Specification (``SUSv2'').
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m
+:[K[K [KESCESC[KOO[KBB[K     A [1mrm[0m command appeared in Version 1 AT&T UNIX.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KBSD                            January 28, 1999                            BSD
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     types of files are not.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     file system.  In addition, only regular files are overwritten, other
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The [1m-P[0m option assumes that the underlying file system is a fixed-block
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mBUGS[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     rmdir(1), undelete(2), unlink(2), fts(3), getopt(3), symlink(7)
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mSEE[0m [1mALSO[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM           rm ./-filename
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM           rm /home/user/-filename
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     reference.  For example:
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The same behavior can be obtained by using an absolute or relative path
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM           rm -- -filename
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     begin with a dash (`-').  For example:
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     options at that point.  This will allow the removal of file names that
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     accept the `--' option which will cause it to stop processing flag
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The [1mrm[0m command uses getopt(3) to parse its arguments, which allows it to
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mNOTE[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     value >0.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     or file hierarchies were removed.  If an error occurs, [1mrm[0m exits with a
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     removed, or if the [1m-f[0m option was specified and all of the existing files
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The [1mrm[0m utility exits 0 if all of the named files or file hierarchies were
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     passed argument.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     ple mode of operation, which performs an unlink(2) operation on the
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     be a directory, may be supplied.  No options may be supplied in this sim-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     When the utility is called as [1munlink[0m, only one argument, which must not
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     It is an error to attempt to remove the files ``.'' or ``..''.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     links.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The [1mrm[0m utility removes symbolic links, not the files referenced by the
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 can only be used to recover files covered by whiteouts.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-W[0m          Attempt to undelete the named files.  Currently, this option
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 removed.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-v[0m          Be verbose when deleting files, showing them as they are
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-r[0m          Equivalent to [1m-R[0m.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 rooted in that directory is skipped.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 user does not respond affirmatively, the file hierarchy
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 before the attempt is made to remove the directory).  If the
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 before each directory's contents are processed (as well as
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 option is specified, the user is prompted for confirmation
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 argument.  The [1m-R[0m option implies the [1m-d[0m option.  If the [1m-i[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-R[0m          Attempt to remove the file hierarchy rooted in each file
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 then 0x00, and then 0xff again, before they are deleted.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 overwritten three times, first with the byte pattern 0xff,
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-P[0m          Overwrite regular files before deleting them.  Files are
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 any previous [1m-f[0m options.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 standard input device is a terminal.  The [1m-i[0m option overrides
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 regardless of the file's permissions, or whether or not the
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-i[0m          Request confirmation before attempting to remove each file,
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 previous [1m-i[0m options.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 exit status to reflect an error.  The [1m-f[0m option overrides any
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 not exist, do not display a diagnostic message or modify the
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 tion, regardless of the file's permissions.  If the file does
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-f[0m          Attempt to remove the files without prompting for confirma-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM                 files.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-d[0m          Attempt to remove directories as well as other types of
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The options are as follows:
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     (on the standard error output) for confirmation.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     ing, and the standard input device is a terminal, the user is prompted
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     on the command line.  If the permissions of the file do not permit writ-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The [1mrm[0m utility attempts to remove the non-directory type files specified
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1munlink[0m [4mfile[24m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mrm[0m [[1m-dfiPRrvW[0m] [4mfile[24m [4m...[24m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mrm[0m, [1munlink[0m -- remove directory entries
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRM(1)                     BSD General Commands Manual                    RM(1)
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K                 not exist, do not display a diagnostic message or modify the
+:[K[K [KESCESC[KOO[KBB[K                 exit status to reflect an error.  The [1m-f[0m option overrides any
+:[K[K [KESCESC[KOO[KBB[K                 previous [1m-i[0m options.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-i[0m          Request confirmation before attempting to remove each file,
+:[K[K [KESCESC[KOO[KBB[K                 regardless of the file's permissions, or whether or not the
+:[K[K [KESCESC[KOO[KBB[K                 standard input device is a terminal.  The [1m-i[0m option overrides
+:[K[K [KESCESC[KOO[KBB[K                 any previous [1m-f[0m options.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-P[0m          Overwrite regular files before deleting them.  Files are
+:[K[K [KESCESC[KOO[KBB[K                 overwritten three times, first with the byte pattern 0xff,
+:[K[K [KESCESC[KOO[KBB[K                 then 0x00, and then 0xff again, before they are deleted.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-R[0m          Attempt to remove the file hierarchy rooted in each file
+:[K[K [KESCESC[KOO[KBB[K                 argument.  The [1m-R[0m option implies the [1m-d[0m option.  If the [1m-i[0m
+:[K[K [KESCESC[KOO[KBB[K                 option is specified, the user is prompted for confirmation
+:[K[K [KESCESC[KOO[KBB[K                 before each directory's contents are processed (as well as
+:[K[K [KESCESC[KOO[KBB[K                 before the attempt is made to remove the directory).  If the
+:[K[K [KESCESC[KOO[KBB[K                 user does not respond affirmatively, the file hierarchy
+:[K[K [KESCESC[KOO[KBB[K                 rooted in that directory is skipped.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-r[0m          Equivalent to [1m-R[0m.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-v[0m          Be verbose when deleting files, showing them as they are
+:[K[K [KESCESC[KOO[KBB[K                 removed.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-W[0m          Attempt to undelete the named files.  Currently, this option
+:[K[K [KESCESC[KOO[KBB[K                 can only be used to recover files covered by whiteouts.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m utility removes symbolic links, not the files referenced by the
+:[K[K [KESCESC[KOO[KBB[K     links.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     It is an error to attempt to remove the files ``.'' or ``..''.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     When the utility is called as [1munlink[0m, only one argument, which must not
+:[K[K [KESCESC[KOO[KBB[K     be a directory, may be supplied.  No options may be supplied in this sim-
+:[K[K [KESCESC[KOO[KBB[K     ple mode of operation, which performs an unlink(2) operation on the
+:[K[K [KESCESC[KOO[KBB[K     passed argument.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m utility exits 0 if all of the named files or file hierarchies were
+:[K[K [KESCESC[KOO[KBB[K     removed, or if the [1m-f[0m option was specified and all of the existing files
+:[K[K [KESCESC[KOO[KBB[K     or file hierarchies were removed.  If an error occurs, [1mrm[0m exits with a
+:[K[K [KESCESC[KOO[KBB[K     value >0.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mNOTE[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m command uses getopt(3) to parse its arguments, which allows it to
+:[K[K [KESCESC[KOO[KBB[K     accept the `--' option which will cause it to stop processing flag
+:[K[K [KESCESC[KOO[KBB[K     options at that point.  This will allow the removal of file names that
+:[K[K [KESCESC[KOO[KBB[K     begin with a dash (`-').  For example:
+:[K[K [KESCESC[KOO[KBB[K           rm -- -filename
+:[K[K [KESCESC[KOO[KBB[K     The same behavior can be obtained by using an absolute or relative path
+:[K[K [KESCESC[KOO[KBB[K     reference.  For example:
+:[K[K [KESCESC[KOO[KBB[K           rm /home/user/-filename
+:[K[K [KESCESC[KOO[KBB[K           rm ./-filename
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m
+:[K[K [KESCESC[KOO[KBB[K     rmdir(1), undelete(2), unlink(2), fts(3), getopt(3), symlink(7)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1m-P[0m option assumes that the underlying file system is a fixed-block
+:[K[K [KESCESC[KOO[KBB[K     file system.  In addition, only regular files are overwritten, other
+:[K[K [KESCESC[KOO[KBB[K     types of files are not.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mCOMPATIBILITY[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m utility differs from historical implementations in that the [1m-f[0m
+:[K[K [KESCESC[KOO[KBB[K     option only masks attempts to remove non-existent files instead of mask-
+:[K[K [KESCESC[KOO[KBB[K     ing a large variety of errors.  The [1m-v[0m option is non-standard and its use
+:[K[K [KESCESC[KOO[KBB[K     in scripts is not recommended.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     Also, historical BSD implementations prompted on the standard output, not
+:[K[K [KESCESC[KOO[KBB[K     the standard error output.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSTANDARDS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mrm[0m command is almost IEEE Std 1003.2 (``POSIX.2'') compatible, except
+:[K[K [KESCESC[KOO[KBB[K     that POSIX requires [1mrm[0m to act like rmdir(1) when the [4mfile[24m specified is a
+:[K[K [KESCESC[KOO[KBB[K     directory.  This implementation requires the [1m-d[0m option if such behavior
+:[K[K [KESCESC[KOO[KBB[K     is desired.  This follows the historical behavior of [1mrm[0m with respect to
+:[K[K [KESCESC[KOO[KBB[K     directories.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The simplified [1munlink[0m command conforms to Version 2 of the Single UNIX
+:[K[K [KESCESC[KOO[KBB[K     Specification (``SUSv2'').
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m
+:[K[K [KESCESC[KOO[KBB[K     A [1mrm[0m command appeared in Version 1 AT&T UNIX.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KBSD                            January 28, 1999                            BSD
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049lbash-3.2$ exit
+exit
+
+Script done on Tue Oct 23 15:01:02 2018
